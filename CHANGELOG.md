@@ -4,6 +4,7 @@
 
 ### New Features
 - freeze: add `--reproducible` flag that zeros dynamic header metadata
+- binja: add FLARE capa explorer sidebar plugin for Binary Ninja Program Analysis
 
 ### Breaking Changes
 
@@ -126,6 +127,9 @@
 
 ### capa Explorer IDA Pro plugin
 - ida: display file-scope feature addresses (`file:0x...`) in rule generator tree and safely handle file-offset navigation/filtering @vee1e #3009
+
+### capa Explorer Binary Ninja plugin
+- binja: add a Binary Ninja sidebar UI for capa Program Analysis with persistent cached results, current-function filtering, address navigation, highlighting, and function rename refresh
 
 ### Development
 - tests: update binja version to 5.3 @mr-tz #3011

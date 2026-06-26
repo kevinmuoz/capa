@@ -293,6 +293,12 @@ It also uses your local changes to the .idb to extract better features, such as 
 
 ![capa + IDA Pro integration](https://github.com/mandiant/capa/blob/master/doc/img/explorer_expanded.png)
 
+# Binary Ninja plugin: capa explorer
+If you use Binary Ninja, then you can use the [capa explorer](https://github.com/mandiant/capa/tree/master/capa/binja/plugin) plugin.
+capa explorer brings capa's Program Analysis workflow into the Binary Ninja sidebar so you can analyze the current database, inspect rule matches, jump to matched addresses, and highlight interesting features directly in the UI.
+
+See the [Binary Ninja plugin README](https://github.com/mandiant/capa/tree/master/capa/binja/plugin) for installation and usage details.
+
 # Ghidra integration
 
 capa supports using Ghidra (via [PyGhidra](https://github.com/NationalSecurityAgency/ghidra/tree/master/Ghidra/Features/PyGhidra)) as a feature extraction backend. This allows you to run capa against binaries using Ghidra's analysis engine.

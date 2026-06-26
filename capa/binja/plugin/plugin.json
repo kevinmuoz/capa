@@ -1,0 +1,18 @@
+{
+  "name": "FLARE capa explorer",
+  "type": ["ui"],
+  "api": ["python3"],
+  "pluginmetadataversion": 2,
+  "description": "Binary Ninja plugin for exploring Capa Program Analysis results",
+  "longdescription": "capa explorer brings capa's Program Analysis workflow into the Binary Ninja sidebar. It runs capa against the current Binary Ninja database, displays rule matches in an interactive tree, supports address navigation and highlighting, and can reopen cached results stored in the database.",
+  "license": {
+    "name": "Apache License 2.0",
+    "text": "Copyright 2020 Google LLC. Licensed under the Apache License, Version 2.0."
+  },
+  "dependencies": {
+    "pip": ["flare-capa==9.4.0"]
+  },
+  "version": "1.0.0",
+  "author": "FLARE Team",
+  "minimumbinaryninjaversion": 4000
+}
